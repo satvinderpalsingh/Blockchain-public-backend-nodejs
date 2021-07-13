@@ -1,5 +1,5 @@
 #Features
--Simple proof-of-work algorithm
+..*Simple proof-of-work algorithm
 -Verify blockchain (to prevent tampering)
 -Generate wallet (private/public key)
 -Sign transactions
