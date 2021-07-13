@@ -4,7 +4,7 @@
 -Generate wallet (private/public key)<br/>
 -Sign transactions<br/>
 -Generate Key Pairs<br/>
--To make transactions on this blockchain we need a keypair. The public key becomes our wallet address, the private key is used to sign transactions and also public key is used to verify the transactions<br/>
+###To make transactions on this blockchain we need a keypair. The public key becomes our wallet address, the private key is used to sign transactions and also public key is used to verify the transactions<br/>
 ```
 const EC = require('elliptic').ec;
 const ec = new EC('secp256k1');
