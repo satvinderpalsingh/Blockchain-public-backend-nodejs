@@ -1,9 +1,11 @@
 <h1>Features</h1><br/>
+<p>
 -Simple proof-of-work algorithm<br/>
 -Verify blockchain (to prevent tampering)<br/>
 -Generate wallet (private/public key)<br/>
 -Sign transactions<br/>
 -Generate Key Pairs<br/>
+ </p>
 <h2>To make transactions on this blockchain we need a keypair. The public key becomes our wallet address, the private key is used to sign transactions and also public key is used to verify the transactions</h2><br/>
 ```
 const EC = require('elliptic').ec;
@@ -13,7 +15,9 @@ const myKey = ec.genKeyPair();
 //myKey consist of public key  and private key can we extracted using myKey.getPublic('hex') and myKey.getPrivate('hex') resp. in hexadecimal format
 ```
 <h1>getting started with Blockchain</h1><br/>
+<p>
 -const Satvinder = new Blockchain();<br/>
+ </p>
 <h1>Add transactions</h1><br/>
 ```
 // Transfer 100 coins from my wallet to "toAddress"
